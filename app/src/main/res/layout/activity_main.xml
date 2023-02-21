@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:layout_height="wrap_content"
+        android:text="Enter principal amount"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/epa"
+        android:inputType="number"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:text="Enter Intrest Rate"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/eir"
+        android:inputType="numberDecimal"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:text="Loan Tenure in months"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/ltm"
+        android:inputType="number"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="12dp" />
+
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="50dp"
+        android:background="#0062EE"
+        android:text="Calculate"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/Emi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"
+        android:textAlignment="center"
+        android:text="EMI"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"
+        android:textAlignment="center"
+        android:text="Total Amount"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:id="@+id/IntrestAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"
+        android:textAlignment="center"
+        android:text="Interest Amount"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
